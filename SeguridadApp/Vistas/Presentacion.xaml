@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeguridadApp.Vistas.Presentacion">
+    <Grid  BackgroundColor="#617c90">
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Image Source="security.png"
+                   HeightRequest="200"/>
+            <Label Text="SecureGuard"
+                   TextColor="White"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="30"
+                   FontAttributes="Bold"/>
+            <Label Text="By"
+                   TextColor="White"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="15"
+                   FontAttributes="Italic"
+                   HeightRequest="100"/>
+            <Label Text="E S F O T"
+                   TextColor="Azure"
+                   FontSize="20"
+                   HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </Grid>
+   
+</ContentPage>
