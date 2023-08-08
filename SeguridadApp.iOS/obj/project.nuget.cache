@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QgcuWsOuecrbp3qfFsjPaltewT/Af1asOSq/8fzQ/yACS6nJ86CmrRYnY8IHdzgreFQnQJMCz9HNGvtSsdH8NQ==",
+  "dgSpecHash": "GK3otjGnmmk0UOEAXTOhkkU7QJ64dRg9aXBBqQnM4AJPaEMWa1wHiM8PY6skE0Mgn+qaYAVGqci+K9ifzDCDUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.iOS\\SeguridadApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.iOS\\SeguridadApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512"
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512",
+    "C:\\Users\\Carlos Jurado\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
 }

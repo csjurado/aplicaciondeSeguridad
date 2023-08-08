@@ -5,7 +5,7 @@
     <Grid  BackgroundColor="#617c90">
         <StackLayout VerticalOptions="CenterAndExpand">
             <Image Source="security.png"
-                   HeightRequest="200"/>
+                   HeightRequest="200" x:Name="logo"/>
             <Label Text="SecureGuard"
                    TextColor="White"
                    HorizontalOptions="CenterAndExpand"

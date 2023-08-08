@@ -2,9 +2,25 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SeguridadApp.Vistas.TutorialIntro.Vista2">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+    <Grid Background="#201F25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="https://i.ibb.co/mSSfshd/v2.png" 
+               Grid.Row="0"
+               Margin="10,0,10,0"/>
+        <Label Text="Contacta a trabajadores más" Grid.Row="1"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               VerticalOptions="Center"
+               FontSize="20"/>
+        <Label Text="RÁPIDO" Grid.Row="2"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="40"/>
+    </Grid>
 </ContentView>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:degradado="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="SeguridadApp.Vistas.CrearCuenta">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="240"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <degradado:PancakeView Grid.RowSpan="2"
+                               BackgroundGradientStartPoint="0,1"
+                               BackgroundGradientEndPoint="0,0">
+            <degradado:PancakeView.BackgroundGradientStops >
+                <degradado:GradientStopCollection >
+                    <degradado:GradientStop Color="#588157" Offset="0"/>
+                    <degradado:GradientStop Color="#A3B18A" Offset="0.7"/>
+                </degradado:GradientStopCollection>
+            </degradado:PancakeView.BackgroundGradientStops>
+            
+        </degradado:PancakeView>
+        <Image Source="security.png" Margin="0,20,0,0" Grid.Row="0"/>
+        <StackLayout Grid.Row="1"
+                     Margin="20"
+                     Orientation="Vertical">
+            <StackLayout Orientation="Horizontal" HeightRequest="50">
+                <Button Text="Subir foto"
+                            BackgroundColor="#3A5A40"
+                            TextColor="White"
+                            CornerRadius="25"/>
+                <Image Source="https://i.ibb.co/cLjxwRq/subir.png"/>
+            </StackLayout>
+            <Entry TextColor="White"
+                   FontAttributes="Bold"
+                   PlaceholderColor="#EAF4F4"
+                   Placeholder="Nombre"/>
+            <Entry TextColor="White"
+                   FontAttributes="Bold"
+                   PlaceholderColor="#EAF4F4"
+                   Placeholder="Correo"/>
+            <Entry TextColor="White"
+                   FontAttributes="Bold"
+                   PlaceholderColor="#EAF4F4"
+                   Placeholder="Contraseña"/>
+            <Button Text="Crear cuenta"
+                    BackgroundColor="White"
+                    TextColor="#6B9080"
+                    CornerRadius="10"
+                    WidthRequest="250"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.Android\\SeguridadApp.Android.csproj": {}
+    "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.Android\\SeguridadApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.Android\\SeguridadApp.Android.csproj": {
+    "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.Android\\SeguridadApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.Android\\SeguridadApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.Android\\SeguridadApp.Android.csproj",
         "projectName": "SeguridadApp.Android",
-        "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.Android\\SeguridadApp.Android.csproj",
-        "packagesPath": "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp.Android\\obj\\",
+        "projectPath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.Android\\SeguridadApp.Android.csproj",
+        "packagesPath": "C:\\Users\\Carlos Jurado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\APLICACIONES MOVILES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos Jurado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\SeguridadApp.csproj": {
-                "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\SeguridadApp.csproj"
+              "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\SeguridadApp.csproj": {
+                "projectPath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\SeguridadApp.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -49,25 +53,29 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2578, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\SeguridadApp.csproj": {
+    "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\SeguridadApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\SeguridadApp.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\SeguridadApp.csproj",
         "projectName": "SeguridadApp",
-        "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\SeguridadApp.csproj",
-        "packagesPath": "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APLICACIONES MOVILES\\Documents\\PROYECTOS DE XAMARIN\\SeguridadApp\\SeguridadApp\\obj\\",
+        "projectPath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\SeguridadApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Jurado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Jurado\\source\\repos\\aplicaciondeSeguridad\\SeguridadApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\APLICACIONES MOVILES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos Jurado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,6 +103,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -108,6 +120,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2578, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
 ﻿using SeguridadApp.Vistas;
+using SeguridadApp.Vistas.TutorialIntro;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace SeguridadApp
         {
             InitializeComponent();
 
-            MainPage = new Presentacion();
+            MainPage = new CrearCuenta();
         }
 
         protected override void OnStart()

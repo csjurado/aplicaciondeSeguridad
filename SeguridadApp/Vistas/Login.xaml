@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeguridadApp.Vistas.Login"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    <Grid BackgroundColor="#F6FFF8">
+        <Grid  Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="*"/>
+        </Grid.RowDefinitions>
+        <Grid VerticalOptions="Center" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <forms:AnimationView x:Name="animacion" 
+                                 Grid.Row="0"
+                                 Animation="imagen1.json"
+                                 HeightRequest="250"
+                                 WidthRequest="250"
+                                 AutoPlay="True"
+                                 RepeatMode="Infinite"
+                                 VerticalOptions="Center"/>
+            <Label Grid.Row="1" 
+                   Text="Secure App"
+                   TextColor="#6B9080"
+                   HorizontalTextAlignment="Center"
+                   FontSize="40"
+                   FontAttributes="Bold"/>
+        </Grid>
+        <StackLayout Grid.Row="1">
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="25" Source="https://i.ibb.co/Zc3mKdj/usuario.png"/>
+                <Entry Placeholder="Correo"
+                       x:Name="UserLogin"
+                       PlaceholderColor="#CCE3DE"
+                       TextColor="#6B9080"
+                       FontAttributes="Bold"
+                       WidthRequest="300"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="25" Source="https://i.ibb.co/pXYZ6bv/candado.png" />
+                <Entry Placeholder="Contraseña"
+                       x:Name="UserPassword"
+                       PlaceholderColor="#CCE3DE"
+                       TextColor="#6B9080"
+                       FontAttributes="Bold"
+                       WidthRequest="300"/>
+            </StackLayout>
+            <Button Text="INICIAR"
+                    TextColor="#6B9080"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    BackgroundColor="#EAF4F4"
+                    CornerRadius="30"/>
+            <Button TextColor="#344E41"
+                    BackgroundColor="Transparent"
+                    Text="Crear Cuenta"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    TextTransform="None"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" Grid.Row="2"
+                     Orientation="Horizontal">
+            <Label Text="Una app de "
+                   HorizontalTextAlignment="Center"
+                   TextColor="#588157"/>
+            <Label Text="Esfot"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#9e2a2b"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </Grid> 
+    </Grid>
+   
+</ContentPage>
