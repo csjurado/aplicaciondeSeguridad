@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeguridadApp.VistasModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,15 @@ namespace SeguridadApp.Vistas
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void btnCrearcuenta_Clicked(object sender, EventArgs e)
+        {
+			Crearcuenta();
+        }
+		private void Crearcuenta()
+		{
+			var funcion = new VMcrearcuenta();
+			funcion.CrearCuenta(txtcorreo.Text,txtcontraseña.Text);
+		}
+    }
 }

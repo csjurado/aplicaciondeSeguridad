@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\SeguridadApp",
-    "\\SeguridadApp\\Vistas",
-    "\\SeguridadApp\\Vistas\\TutorialIntro"
+    "\\SeguridadApp\\Vistas"
   ],
-  "SelectedNode": "\\SeguridadApp\\Vistas\\Login.xaml",
+  "SelectedNode": "\\SeguridadApp\\Vistas\\CrearCuenta.xaml",
   "PreviewInSolutionExplorer": false
 }

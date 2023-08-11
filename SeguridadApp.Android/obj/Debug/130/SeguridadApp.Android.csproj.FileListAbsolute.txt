@@ -1336,3 +1336,9 @@ C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\o
 C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\PancakeDrawable.java
 C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\PancakeViewRenderer.java
 C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\RoundedCornerOutlineProvider.java
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\Firebase.dll
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\LiteDB.dll
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\System.Reactive.dll
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Carlos Jurado\source\repos\aplicaciondeSeguridad\SeguridadApp.Android\obj\Debug\130\android\assets\Firebase.Auth.dll

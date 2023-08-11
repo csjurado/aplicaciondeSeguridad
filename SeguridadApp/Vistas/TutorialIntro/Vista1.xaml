@@ -11,13 +11,13 @@
         <Image Source="https://i.ibb.co/NThm0cB/v1.png"
                Grid.Row="0"
                Margin="10,0,10,0"/>
-        <Label Text="Reactivate" Grid.Row="1"
+        <Label Text="Tu familia" Grid.Row="1"
                TextColor="White"
                HorizontalOptions="Center"
                FontAttributes="Bold"
                VerticalOptions="Center"
                FontSize="20"/>
-        <Label Text="MUNDO" Grid.Row="2"
+        <Label Text="SEGURA" Grid.Row="2"
                TextColor="White"
                HorizontalOptions="Center"
                FontAttributes="Bold"

@@ -33,22 +33,28 @@
             <Entry TextColor="White"
                    FontAttributes="Bold"
                    PlaceholderColor="#EAF4F4"
-                   Placeholder="Nombre"/>
+                   Placeholder="Nombre"
+                    x:Name="txtNombre"/>
             <Entry TextColor="White"
                    FontAttributes="Bold"
                    PlaceholderColor="#EAF4F4"
-                   Placeholder="Correo"/>
+                   Placeholder="Correo"
+                   x:Name="txtcorreo"/>
             <Entry TextColor="White"
                    FontAttributes="Bold"
                    PlaceholderColor="#EAF4F4"
-                   Placeholder="Contraseña"/>
+                   Placeholder="Contraseña"
+                   x:Name="txtcontraseña"
+                   IsPassword="True"/>
             <Button Text="Crear cuenta"
                     BackgroundColor="White"
                     TextColor="#6B9080"
                     CornerRadius="10"
                     WidthRequest="250"
                     HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
+                    FontAttributes="Bold"
+                    x:Name="btnCrearcuenta"
+                    Clicked="btnCrearcuenta_Clicked"/>
         </StackLayout>
     </Grid>
 </ContentPage>
